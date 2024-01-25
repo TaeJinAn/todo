@@ -3,7 +3,6 @@ import Block from '../Block';
 import CheckBox from '../CheckBox';
 import CircleButton from '../Button/CircleButton';
 import TodoInput from '../TodoInput';
-import { check } from 'prettier';
 
 const Box = styled.div<{ isEditing: boolean }>`
   display: flex;
